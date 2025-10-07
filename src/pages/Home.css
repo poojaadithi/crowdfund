@@ -80,7 +80,6 @@ nav a:hover {
   opacity: 0.9;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2rem;

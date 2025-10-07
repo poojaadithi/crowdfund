@@ -1,7 +1,18 @@
-import React from "react";
+import React from 'react';
+import './Login.css';
 
 function Login() {
-  return <h1>Login Page</h1>;
+  console.log("Login page rendered"); // ✅ Check browser console for this
+  return (
+    <div className="login-container">
+      <h2>Login</h2>
+      <form>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  );
 }
 
 export default Login;
